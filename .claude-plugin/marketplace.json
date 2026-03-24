@@ -1,0 +1,22 @@
+{
+  "name": "gtpgg1013-plugins",
+  "description": "Claude Code plugins by gtpgg1013 - development tools and hooks",
+  "owner": {
+    "name": "gtpgg1013",
+    "url": "https://github.com/gtpgg1013"
+  },
+  "plugins": [
+    {
+      "name": "port-saver",
+      "description": "Detects port conflicts before server startup and config file writes. Supports 44+ server frameworks, 16+ config file types, and automatic alternative port suggestion.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gtpgg1013/port-saver.git",
+        "sha": "ba889a33420f321a69c1fa33ab46c4a9850bdfdc"
+      },
+      "category": "development",
+      "tags": ["hooks", "port", "conflict", "detection", "devserver"],
+      "homepage": "https://github.com/gtpgg1013/port-saver"
+    }
+  ]
+}
